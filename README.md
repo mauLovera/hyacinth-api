@@ -1,5 +1,7 @@
 # **Welcome to Hyacinth!** 🌼
 
+link to frontend: https://github.com/mauLovera/hyacinth-front-end
+
 ## About
 ---
 
