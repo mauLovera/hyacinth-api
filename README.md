@@ -1,72 +1,28 @@
-# Decoupled MERN Stack with JWT Auth Template - Back End
+# **Welcome to Hyacinth!** 🌼
 
-This is the back end of a decoupled MERN Stack app that includes JWT Authentication.
+## About
+---
 
-When combined with the front end found [here](https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-front-end), you'll have all you need to build a full stack MERN app!
+Hyacinth is a bookmarking app that lets you group bookmarks into collection for ease of use! The inspiration behind this came from my own journey of learning to code and wishing I had a place where I could visually see groups of my most used sites and resources! :)
 
-Use this to go build things! 🚀
+## Image
+---
 
-## To Use This Template
+![Add Collection](https://i.imgur.com/yC7vmYX.png)
 
-**Replace `<name-of-your-app-here>` in the commands below with the name of your app!**
+## Technologies Used
+---
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-```bash
-git clone https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-back-end <name-of-your-app-here>-back-end
-cd <name-of-your-app-here>-back-end
-```
 
-Once you are in the project directory:
 
-```bash
-rm -rf .git
-```
+## Icebox
+---
 
-Here's what your command line output should like after this step (note that the indicator that we are in a git repository is gone!)
+1. Redo the styling to make it look a bit more modern
+2. Add edit functionality for bookmarks and the ability to copy them onto your clipboard!
 
-<img src="https://i.imgur.com/L47kNOZ.png" alt="The command line before and after running the rm -rf .git command. Before git:(main) is visible indiating that the directory contains a git repository, after the command it is not.">
-
-Re-initialize a git repository:
-
-```bash
-git init
-```
-
-Use the GitHub CLI to create a new public project repository on GitHub and add a remote named origin for this repo:
-
-```bash
-gh repo create <name-of-your-app-here>-back-end --public --source=. --remote=origin
-```
-
-Run npm i to fetch the template's dependencies:
-
-```bash
-npm i
-```
-
-touch a .env file:
-
-```bash
-touch .env
-```
-
-Fill it with the following:
-
-```
-DATABASE_URL=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-SECRET=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-CLOUDINARY_URL=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
-
-Replace the `DATABASE_URL`, `SECRET`, and `CLOUDINARY_URL` with values that you provide.
-
-> 🚨 Place secrets in this `.env` file. The contents of this file WILL NOT be exposed to site visitors.
-
-Delete this README.md, then make an initial commit:
-
-```bash
-git add .
-git commit -m "initial commit"
-git push -u origin main
-```
-
-You're done!
